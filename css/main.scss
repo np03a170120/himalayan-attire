@@ -1,0 +1,396 @@
+@import "./base/globals";
+@import "./base/variables";
+@import "./base/mixins";
+// helper classes
+.j-r {
+    display: flex;
+    justify-content: right;
+}
+
+.j-l {
+    display: flex;
+    justify-content: left;
+}
+
+.j-c {
+    display: flex;
+    align-items: center;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+
+// HEADER
+// header-top
+.contact-us {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact-detail {
+    display: flex;
+    margin-left: 20px;
+    li {
+        border-left: 1px solid rgb(255, 255, 255);
+        padding-left: 10px;
+        margin-right: 10px;
+        i {
+            margin-right: 6px;
+        }
+    }
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    li {
+        margin-right: 10px;
+    }
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 3px 30px;
+    a {
+        color: white;
+        font-size: 12px;
+    }
+}
+
+// .myOverlay {
+//     animation: mymove 0.2s linear;
+// }
+// @keyframes mymove {
+//     from {
+//         left: 0px;
+//     }
+//     to {
+//         left: 200px;
+//     }
+// }
+@keyframes mynewmove {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 155px;
+    }
+}
+
+// header-bottom
+.header-bottom {
+    margin: 20px 0;
+}
+
+// navbar
+.navbar-main {
+    .navbar-collapse {
+        justify-content: center;
+    }
+    .nav-link {
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: relative;
+        &:hover {
+            color: $primary_color;
+        }
+    }
+}
+
+.dropdown-content {
+    padding: 20px 50px;
+    display: table;
+    position: absolute;
+    left: -6%;
+    background: white;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 10px 0px #00000008;
+    display: none;
+    z-index: 1000;
+    ul {
+        width: 100%;
+        column-count: 3;
+        width: max-content;
+        a {
+            font-size: 13px;
+            color: rgb(75, 75, 75);
+            text-transform: capitalize;
+        }
+        li {
+            margin-bottom: 8px;
+            margin-right: 30px;
+        }
+    }
+}
+
+.navbar-image {
+    text-align: right;
+    margin-top: -30px;
+    img {
+        height: 250px;
+        width: 300px;
+        object-fit: contain;
+    }
+}
+
+.dc-links {
+    margin-top: 20px;
+    li {
+        a {
+            &:hover {
+                color: $primary_color;
+            }
+        }
+    }
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-item {
+    &:hover {
+        .dropdown-content {
+            display: block;
+        }
+    }
+}
+
+.dc-title {
+    h6 {
+        text-transform: uppercase;
+        border-bottom: 1px solid black;
+        padding: 10px 0;
+        letter-spacing: 2px;
+    }
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    button {
+        transition: 0.3s linear;
+    }
+    li {
+        margin-right: 15px;
+        a {
+            color: black;
+        }
+        i {
+            font-size: 19px;
+        }
+        &:hover {
+            a {
+                color: $primary_color;
+            }
+            button {
+                color: $primary_color;
+            }
+        }
+    }
+}
+
+// overlay
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+    transform: rotate(90deg);
+    color: $primary_color;
+}
+
+.overlay input[type="text"] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.overlay input[type="text"]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
+
+.header-icon {
+    button {
+        border: none;
+        background: none;
+        outline: none;
+    }
+}
+
+.oc-title {
+    margin: 20px 0;
+    h4 {
+        color: white;
+        font-weight: 300;
+        font-size: 18px;
+    }
+}
+
+.overlay input[type="text"]:hover {
+    background: none;
+}
+
+.overlay input[type="text"] {
+    padding: 15px;
+    font-size: 48px;
+    border: none;
+    text-align: center;
+    float: left;
+    color: white;
+    width: 100%;
+    font-weight: 200;
+    letter-spacing: 2px;
+    position: relative;
+    /* background: white; */
+    background: none;
+    border-bottom: 1px solid white;
+}
+
+input[type="text"] {
+    outline: none;
+}
+
+.overlay {
+     ::placeholder {
+        color: white;
+    }
+    form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -425%);
+    }
+}
+
+.overlay {
+    button {
+        background: none;
+        color: white;
+        position: absolute;
+        font-size: 47px;
+        right: -3%;
+        border: none;
+    }
+    button:focus {
+        outline: none;
+    }
+}
+
+.overlay button:hover {
+    background: #191919;
+}
+
+// medium-card
+.cm-image {
+    img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+    }
+}
+
+// side-navigation
+.sidenav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all 0.8s ease-in-out;
+    z-index: 9999999999;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 0;
+    border-left: 1px solid #efefef;
+    opacity: 0;
+    overflow-y: auto;
+}
+
+.sidenav.open {
+    right: 0;
+    opacity: 1;
+}
+
+// close button
+.sidenav {
+    padding: 30px 40px;
+    a {
+        font-size: 48px;
+        transition: all 0.3s;
+        cursor: pointer;
+        &:hover {
+            transform: rotate(90deg);
+            color: #bc4040 !important;
+        }
+    }
+}
+
+.title-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    h3 {
+        font-size: 34px;
+        text-transform: capitalize;
+    }
+}
