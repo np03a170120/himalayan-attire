@@ -63,3 +63,12 @@ $(document).mouseup((e) => {
         $("body").removeClass("open-opacity");
     }
 });
+
+// MAIN BANNER SINGLE
+$(".main-banner-slider").slick({
+    dots: false,
+    prevArrow: false,
+    nextArrow: false,
+    autoplay: true,
+    autplaySpeed: 2000,
+});

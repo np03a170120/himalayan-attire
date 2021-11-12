@@ -19,8 +19,10 @@ body {
     a {
         transition: 0.25s linear;
         text-decoration: none;
+        color: black;
         &:hover {
             text-decoration: none;
+            color: $primary_color;
         }
         &:focus {
             outline: none;
@@ -38,5 +40,31 @@ body {
         font-size: 15px;
         line-height: 24px;
         text-align: justify;
+    }
+}
+
+.sec-padding {
+    padding: 60px 0;
+}
+
+.sec-title {
+    margin: 20px 0;
+    text-align: center;
+    h2 {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        display: inline-block;
+        &::after {
+            content: "";
+            height: 1px;
+            position: absolute;
+            bottom: -30%;
+            width: 50%;
+            background: black;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 }

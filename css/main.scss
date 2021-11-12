@@ -29,6 +29,14 @@
     text-transform: uppercase;
 }
 
+.hb-logo {
+    img {
+        height: 80px;
+        width: auto;
+        object-fit: contain;
+    }
+}
+
 .contact {
     display: flex;
 }
@@ -89,7 +97,7 @@
 
 // header-bottom
 .header-bottom {
-    margin: 20px 0;
+    margin: 8px 0;
 }
 
 // navbar
@@ -392,5 +400,199 @@ input[type="text"] {
     h3 {
         font-size: 34px;
         text-transform: capitalize;
+    }
+}
+
+// Main-Banner
+.main-banner-single {
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+// featured product
+.product-card-big {
+    .pcb-img {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        img {
+            height: 500px;
+            width: 400px;
+            object-fit: cover;
+            transition: opacity 0.4s ease-in-out;
+        }
+        .img-top {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+        &:hover {
+            .img-top {
+                opacity: 1;
+            }
+        }
+    }
+    .pcb-title {
+        padding-top: 10px;
+        text-align: center;
+        h6 {
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
+    .pcb-price {
+        text-align: center;
+        font-weight: 700;
+    }
+    .quick-view {
+        display: none;
+        z-index: 9999999;
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        button {
+            background: black;
+            color: white;
+            outline: none;
+            border: none;
+            padding: 10px 20px;
+            font-weight: 200;
+        }
+    }
+    &:hover {
+        .quick-view {
+            display: block;
+        }
+    }
+}
+
+// modal
+button.uk-modal-close-default.uk-icon.uk-close {
+    color: $primary_color;
+    &:hover {
+        transform: rotate(90deg);
+    }
+}
+
+.uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical {
+    width: 70%;
+    z-index: 99999;
+    padding: 64px;
+    a {
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+.pd-title {
+    padding: 10px 0;
+    h6 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        width: 50%;
+    }
+}
+
+.pd-text {
+    padding: 10px 0;
+    p {
+        padding-top: 18px;
+        line-height: 20px;
+        font-size: 13px !important;
+        font-weight: 400;
+        padding-bottom: 18px;
+        border-top: 1px solid rgba(128, 128, 128, 0.377);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.377);
+    }
+}
+
+.product-description {
+    .pcb-price {
+        font-weight: 500;
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+}
+
+// .pd-wrapper {
+//     display: flex;
+//     align-items: center;
+// }
+.pd-size {
+    margin-right: 18px;
+    margin-bottom: 5px;
+    h6 {
+        display: inline-block;
+        text-transform: capitalize;
+    }
+    span {
+        margin-left: 10px;
+    }
+    .color-box {
+        margin-bottom: -4px;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        background: rgb(114, 11, 11);
+    }
+}
+
+.co-quantity input[type="number"] {
+    width: 90%;
+    border: 1px solid #bc4040;
+    font-size: 24px;
+    padding: 0.6rem 1.6rem;
+}
+
+.btns {
+    padding: 20px 0;
+    display: flex;
+    width: 100%;
+}
+
+.modal-image {
+    display: flex;
+    align-items: center;
+    img {
+        height: 300px;
+        width: 357px;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+}
+
+.add-to-cart {
+    text-transform: uppercase;
+    text-transform: uppercase;
+    background: #bc4040;
+    display: inline-block;
+    padding: 0.6rem 1.6rem;
+    line-height: 34px;
+    letter-spacing: 2px;
+    a {
+        color: white;
+        font-size: 14px;
+    }
+}
+
+.enquiry {
+    background: black;
+    margin-left: 12px;
+}
+
+.view-detail {
+    a {
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        letter-spacing: 1px;
     }
 }
