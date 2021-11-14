@@ -48,7 +48,8 @@ body {
 }
 
 .sec-title {
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
     text-align: center;
     h2 {
         font-weight: 300;
@@ -66,5 +67,18 @@ body {
             left: 50%;
             transform: translateX(-50%);
         }
+    }
+}
+
+// learn-more
+.learn-more {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card-search {
+    background: white;
+    a {
+        color: white;
     }
 }

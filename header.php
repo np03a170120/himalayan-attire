@@ -147,10 +147,12 @@
                                     <div class="row">
                                         <!-- single medium sized product card -->
                                         <div class="col-md-3">
-                                            <div class="card-mid">
-                                                <div class="cm-image">
-                                                    <img src="./images/dummy-red.png" alt="">
-                                                </div>
+                                            <div class="card-search">
+                                                <a href="#">
+                                                    <div class="cs-image">
+                                                        <img src="./images/multi.png" alt="">
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
