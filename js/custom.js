@@ -2,7 +2,7 @@ function openSearch() {
     $(".myOverlay").fadeIn("slow");
     document.getElementById("myOverlay").style.display = "block";
     document.getElementById("myOverlay").style.animation =
-        "mynewmove 0.6s forwards";
+        "mynewmove 0.5s forwards";
 }
 
 function closeSearch() {

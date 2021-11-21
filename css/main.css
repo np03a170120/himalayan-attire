@@ -517,8 +517,8 @@ input[type="text"] {
 
 .sidenav a {
   font-size: 48px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 
@@ -541,8 +541,104 @@ input[type="text"] {
 }
 
 .nav-title h3 {
-  font-size: 34px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.profile-content h6 {
+  margin-top: 10px;
+  margin-bottom: 24px;
   text-transform: capitalize;
+  letter-spacing: 0.5px;
+  color: grey;
+}
+
+.profile-form .form-control {
+  border-radius: 0px;
+  padding: 24px 18px;
+}
+
+.profile-form button {
+  outline: 2px solid #bc4040;
+  color: white;
+  border-radius: 0px;
+  margin: 24px 0;
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #bc4040;
+  font-size: 18px;
+}
+
+.form-group span a {
+  font-size: 12px;
+  color: grey;
+}
+
+.create_profile a {
+  background: #bc4040;
+  border-radius: 0px;
+  margin: 24px 0;
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 18px;
+  -webkit-transform: none !important;
+          transform: none !important;
+  text-align: center;
+}
+
+.or {
+  display: block;
+  text-align: center;
+}
+
+.or span {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+.csm-title {
+  margin: 20px 0;
+}
+
+.csm-title h6 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+.connect_social_media img {
+  height: 50px;
+  width: 50px;
+  margin: 0 8px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.connect_social_media img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.social_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-banner-single {
@@ -1212,5 +1308,74 @@ img.img-top {
 
 .copyright {
   font-size: 12px;
+}
+
+.ws-image img {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wishlist {
+  margin: 30px 0;
+}
+
+.wishlist-single {
+  background: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.wishlist-single a {
+  -webkit-transform: none !important;
+          transform: none !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wishlist-single a:hover {
+  -webkit-box-shadow: 15px 12px 20px #d9d9d99c;
+          box-shadow: 15px 12px 20px #d9d9d99c;
+}
+
+.ws-title {
+  margin-bottom: 8px;
+}
+
+.ws-title h6 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.ws-buttons {
+  margin: 0 20px;
+  text-align: right;
+}
+
+.ws-buttons button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.ws-buttons button i {
+  color: grey;
+  font-size: 24px;
+}
+
+.ws-buttons i.fas.fa-cart-plus:hover {
+  color: green;
+}
+
+.ws-buttons i.far.fa-trash-alt:hover {
+  color: #bc4040;
 }
 /*# sourceMappingURL=main.css.map */

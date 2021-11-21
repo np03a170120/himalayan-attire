@@ -380,7 +380,7 @@ input[type="text"] {
     padding: 30px 40px;
     a {
         font-size: 48px;
-        transition: all 0.3s;
+        transition: all 0.3s ease-in-out;
         cursor: pointer;
         &:hover {
             transform: rotate(90deg);
@@ -397,9 +397,104 @@ input[type="text"] {
 
 .nav-title {
     h3 {
-        font-size: 34px;
-        text-transform: capitalize;
+        font-size: 24px;
+        text-transform: uppercase;
     }
+}
+
+.profile-content {
+    h6 {
+        margin-top: 10px;
+        margin-bottom: 24px;
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+        color: grey;
+    }
+}
+
+.profile-form {
+    .form-control {
+        border-radius: 0px;
+        padding: 24px 18px;
+    }
+    button {
+        outline: 2px solid $primary_color;
+        color: white;
+        border-radius: 0px;
+        margin: 24px 0;
+        width: 100%;
+        display: block;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $primary_color;
+        font-size: 18px;
+    }
+}
+
+.form-group {
+    span {
+        a {
+            font-size: 12px;
+            color: grey;
+        }
+    }
+}
+
+.create_profile {
+    a {
+        background: $primary_color;
+        border-radius: 0px;
+        margin: 24px 0;
+        width: 100%;
+        display: block;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+        font-size: 18px;
+        transform: none !important;
+        text-align: center;
+    }
+}
+
+.or {
+    display: block;
+    text-align: center;
+    span {
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: grey;
+    }
+}
+
+.csm-title {
+    margin: 20px 0;
+    h6 {
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+    }
+}
+
+.connect_social_media {
+    img {
+        height: 50px;
+        width: 50px;
+        margin: 0 8px;
+        transition: 0.2s ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.social_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 // Main-Banner
@@ -1009,4 +1104,69 @@ img.img-top {
 
 .copyright {
     font-size: 12px;
+}
+
+// wishlist
+.wishlist-single {}
+
+.ws-image {
+    img {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+    }
+}
+
+.wishlist {
+    margin: 30px 0;
+}
+
+.wishlist-single {
+    background: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.wishlist-single {
+    a {
+        transform: none !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        &:hover {
+            box-shadow: 15px 12px 20px #d9d9d99c;
+        }
+    }
+}
+
+.ws-title {
+    h6 {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: grey;
+    }
+    margin-bottom: 8px;
+}
+
+.ws-buttons {
+    margin: 0 20px;
+    text-align: right;
+    button {
+        outline: none;
+        border: none;
+        background: none;
+        i {
+            color: grey;
+            font-size: 24px;
+        }
+    }
+    i.fas.fa-cart-plus {
+        &:hover {
+            color: green;
+        }
+    }
+    i.far.fa-trash-alt {
+        &:hover {
+            color: $primary_color;
+        }
+    }
 }

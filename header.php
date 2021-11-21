@@ -146,7 +146,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <!-- single medium sized product card -->
-                                        <div class="col-md-3">
+                                        <!-- <div class="col-md-3">
                                             <div class="card-search">
                                                 <a href="#">
                                                     <div class="cs-image">
@@ -154,7 +154,7 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -184,18 +184,133 @@
             </div>
             <a class="closebtn">&times;</a>
         </div>
+        <div class="profile-content">
+            <h6>login to your account</h6>
+            <div class="profile-form">
+                <form>
+                    <div class="form-group">
+
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <span><a href="#">Forgot your password</a></span>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn ">Sign In</button>
+                    </div>
+                    <div class="create_profile">
+                        <a href="#">Create Profile</a>
+                    </div>
+                    <div class="or">
+                        <span>or</span>
+                    </div>
+                    <div class="connect_social_media">
+                        <div class="csm-title">
+                            <h6>Connect with social media</h6>
+                        </div>
+                        <div class="social_icons">
+                            <div class="google">
+                                <a href="#">
+                                    <img src="./images/facebook-logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="facebook">
+                                <a href="#">
+                                    <img src="./images/google.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
     <div id="cart" class="sidenav">
         <div class="title-button-wrapper">
-            <h1>cart</h1>
+            <div class="nav-title">
+                <h3>cart</h3>
+            </div>
             <a class="closebtn">&times;</a>
         </div>
     </div>
 
     <div id="wishlist" class="sidenav">
         <div class="title-button-wrapper">
-            <h1>wishlist</h1>
+            <div class="nav-title">
+                <h3>Wishlist</h3>
+            </div>
             <a class="closebtn">&times;</a>
+        </div>
+        <div class="wishlist">
+            <div class="wishlist-single">
+                <a href="#">
+                    <div class="ws-image">
+                        <img src="./images/dummy-red.png" alt="">
+                    </div>
+                    <div class="ws-title">
+                        <h6>red velvet</h6>
+                        <h3>$100</h3>
+                    </div>
+                    <div class="ws-buttons">
+                        <button><i class="far fa-trash-alt"></i></button>
+                        <button><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="wishlist-single">
+                <a href="#">
+                    <div class="ws-image">
+                        <img src="./images/multi.png" alt="">
+                    </div>
+                    <div class="ws-title">
+                        <h6>red velvet</h6>
+                        <h3>$100</h3>
+                    </div>
+                    <div class="ws-buttons">
+                        <button><i class="far fa-trash-alt"></i></button>
+                        <button><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="wishlist-single">
+                <a href="#">
+                    <div class="ws-image">
+                        <img src="./images/dummy-red.png" alt="">
+                    </div>
+                    <div class="ws-title">
+                        <h6>red velvet</h6>
+                        <h3>$100</h3>
+                    </div>
+                    <div class="ws-buttons">
+                        <button><i class="far fa-trash-alt"></i></button>
+                        <button><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="wishlist-single">
+                <a href="#">
+                    <div class="ws-image">
+                        <img src="./images/blue.png" alt="">
+                    </div>
+                    <div class="ws-title">
+                        <h6>red velvet</h6>
+                        <h3>$100</h3>
+                    </div>
+                    <div class="ws-buttons">
+                        <button><i class="far fa-trash-alt"></i></button>
+                        <button><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="create_profile">
+                <a href="#">View all</a>
+            </div>
         </div>
     </div>
