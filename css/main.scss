@@ -1170,3 +1170,52 @@ img.img-top {
         }
     }
 }
+
+// about.php
+.about-banner {
+    img {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+}
+
+.about-image {
+    img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.team {
+    .sec-title {
+        text-align: left;
+        span {
+            margin-right: 30px;
+            text-transform: uppercase;
+            color: grey;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.ts-img {
+    margin-bottom: 60px;
+    img {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.col-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+// team in about section
+.team {
+    background: whitesmoke;
+    margin-bottom: 40px;
+}

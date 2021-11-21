@@ -1378,4 +1378,55 @@ img.img-top {
 .ws-buttons i.far.fa-trash-alt:hover {
   color: #bc4040;
 }
+
+.about-banner img {
+  width: 100%;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-image img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .sec-title {
+  text-align: left;
+}
+
+.team .sec-title span {
+  margin-right: 30px;
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: 1px;
+}
+
+.ts-img {
+  margin-bottom: 60px;
+}
+
+.ts-img img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.col-reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.team {
+  background: whitesmoke;
+  margin-bottom: 40px;
+}
 /*# sourceMappingURL=main.css.map */

@@ -123,7 +123,7 @@
                                                 <a class="nav-link" href="#">Male's</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">About us</a>
+                                                <a class="nav-link" href="about.php">About us</a>
                                             </li>
                                         </ul>
                                     </div>
