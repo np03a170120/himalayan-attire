@@ -218,7 +218,8 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background: black;
+    background: white;
+    border-top: 1px solid whitesmoke;
 }
 
 .overlay-content {
@@ -236,7 +237,7 @@
     right: 45px;
     font-size: 60px;
     cursor: pointer;
-    color: white;
+    color: black;
     transition: all 0.3s;
 }
 
@@ -270,7 +271,7 @@
 }
 
 .overlay button:hover {
-    background: #bbb;
+    color: $primary_color;
 }
 
 .header-icon {
@@ -307,7 +308,7 @@
     position: relative;
     /* background: white; */
     background: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 input[type="text"] {
@@ -316,7 +317,7 @@ input[type="text"] {
 
 .overlay {
      ::placeholder {
-        color: white;
+        color: black;
     }
     form {
         position: absolute;
@@ -329,7 +330,7 @@ input[type="text"] {
 .overlay {
     button {
         background: none;
-        color: white;
+        color: black;
         position: absolute;
         font-size: 47px;
         right: -3%;
@@ -338,10 +339,6 @@ input[type="text"] {
     button:focus {
         outline: none;
     }
-}
-
-.overlay button:hover {
-    background: #191919;
 }
 
 // medium-card
@@ -1218,4 +1215,80 @@ img.img-top {
 .team {
     background: whitesmoke;
     margin-bottom: 40px;
+}
+
+.contact-image {
+    img {
+        width: 100%;
+        height: 60vh;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+.no-pad {
+    padding: 0;
+}
+
+// contact-info
+.ci {
+    background: whitesmoke;
+    box-shadow: 9px 7px 13px 0px #00000024;
+    padding: 50px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    li {
+        margin-right: 30px;
+    }
+}
+
+.contact-form {
+    margin: 60px 0;
+    padding: 0 160px;
+    .form-control {
+        padding: 30px 40px;
+        border-radius: 0;
+    }
+    button {
+        border-radius: 0;
+        background: $primary_color;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+}
+
+.extras {
+    margin: 60px;
+    outline: 2px solid whitesmoke;
+    padding: 30px 40px;
+}
+
+// card in search
+.card-search {
+    position: relative;
+    top: -50%;
+}
+
+.cs-image {
+    img {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+    }
+}
+
+.cs-title {
+    margin: 20px 0;
+    h6 {
+        color: black;
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+    span {
+        color: black;
+    }
 }

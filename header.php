@@ -47,7 +47,9 @@
                 <div class="row">
                     <div class="col-md-2 j-c">
                         <div class="hb-logo">
-                            <img src="./images/logo.png" alt="">
+                            <a href="index.php">
+                                <img src="./images/logo.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-8 j-c j-c-c">
@@ -125,6 +127,9 @@
                                             <li class="nav-item">
                                                 <a class="nav-link" href="about.php">About us</a>
                                             </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="contact.php">contact us</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -146,15 +151,59 @@
                                 <div class="container">
                                     <div class="row">
                                         <!-- single medium sized product card -->
-                                        <!-- <div class="col-md-3">
+                                        <div class="col-md-3">
                                             <div class="card-search">
                                                 <a href="#">
                                                     <div class="cs-image">
                                                         <img src="./images/multi.png" alt="">
                                                     </div>
+                                                    <div class="cs-title">
+                                                        <h6>Multicolor Pashmina swal</h6>
+                                                        <span>$1200</span>
+                                                    </div>
                                                 </a>
                                             </div>
-                                        </div> -->
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card-search">
+                                                <a href="#">
+                                                    <div class="cs-image">
+                                                        <img src="./images/dummy-red.png" alt="">
+                                                    </div>
+                                                    <div class="cs-title">
+                                                        <h6>Multicolor Pashmina swal</h6>
+                                                        <span>$1200</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card-search">
+                                                <a href="#">
+                                                    <div class="cs-image">
+                                                        <img src="./images/pink.png" alt="">
+                                                    </div>
+                                                    <div class="cs-title">
+                                                        <h6>Multicolor Pashmina swal</h6>
+                                                        <span>$1200</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card-search">
+                                                <a href="#">
+                                                    <div class="cs-image">
+                                                        <img src="./images/blue.png" alt="">
+                                                    </div>
+                                                    <div class="cs-title">
+                                                        <h6>Multicolor Pashmina swal</h6>
+                                                        <span>$1200</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>

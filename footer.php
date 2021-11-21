@@ -7,9 +7,9 @@
                         <h3>information</h3>
                     </div>
                     <ul class="footer-links">
-                        <li><a href="$">New products</a></li>
-                        <li><a href="$">Best Sales</a></li>
-                        <li><a href="$">legal Notice</a></li>
+                        <li><a href="#">New products</a></li>
+                        <li><a href="#">Best Sales</a></li>
+                        <li><a href="extras.php">legal Notice</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -17,10 +17,10 @@
                         <h3>quick links</h3>
                     </div>
                     <ul class="footer-links">
-                        <li><a href="$">About Us</a></li>
-                        <li><a href="$">contact us</a></li>
-                        <li><a href="$">Brands</a></li>
-                        <li><a href="$">Buying tips</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Buying tips</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -28,10 +28,10 @@
                         <h3>shop by category</h3>
                     </div>
                     <ul class="footer-links">
-                        <li><a href="$">wraps</a></li>
-                        <li><a href="$">shwal</a></li>
-                        <li><a href="$">scarfs</a></li>
-                        <li><a href="$">sweater</a></li>
+                        <li><a href="#">wraps</a></li>
+                        <li><a href="#">shwal</a></li>
+                        <li><a href="#">scarfs</a></li>
+                        <li><a href="#">sweater</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -39,10 +39,10 @@
                         <h3>My account</h3>
                     </div>
                     <ul class="footer-links">
-                        <li><a href="$">login/register</a></li>
-                        <li><a href="$">cart</a></li>
-                        <li><a href="$">wishlist</a></li>
-                        <li><a href="$">order history</a></li>
+                        <li><a href="#">login/register</a></li>
+                        <li><a href="#">cart</a></li>
+                        <li><a href="#">wishlist</a></li>
+                        <li><a href="#">order history</a></li>
                     </ul>
                 </div>
             </div>

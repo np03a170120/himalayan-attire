@@ -1,9 +1,12 @@
 <?php include 'header.php'?>
 <section class="about-banner-section">
-    <div class="about-banner">
-        <img src="./images/about-banner.jpg" alt="">
+    <div class="container-fluid no-pad">
+        <div class="contact-image">
+            <img src="./images/about-banner.jpg" alt="">
+        </div>
     </div>
 </section>
+
 <section class="about sec-padding">
     <div class="container">
         <div class="sec-title">
