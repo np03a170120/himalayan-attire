@@ -253,11 +253,7 @@
     border: none;
     float: left;
     width: 80%;
-    background: white;
-}
-
-.overlay input[type="text"]:hover {
-    background: #f1f1f1;
+    background: black;
 }
 
 .overlay button {
@@ -301,7 +297,6 @@
     border: none;
     text-align: center;
     float: left;
-    color: white;
     width: 100%;
     font-weight: 200;
     letter-spacing: 2px;
@@ -333,7 +328,6 @@ input[type="text"] {
         color: black;
         position: absolute;
         font-size: 47px;
-        right: -3%;
         border: none;
     }
     button:focus {
